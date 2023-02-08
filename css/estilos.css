@@ -1,0 +1,47 @@
+* {
+    box-sizing: content-box;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #a3a3a3;
+    }
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #80CBF3;
+}
+
+#avatar {
+    width: 100;
+    height: auto;
+    border-radius: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+footer {
+    background-color: #80CBF3;
+    
+    
+}
+
+#socialFooter {
+    margin-right: 20px;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+    width: 40px;
+    height: 34px;
+    margin-left: 20px;
+}

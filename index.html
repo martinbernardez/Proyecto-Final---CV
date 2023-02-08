@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título -->
     <title>Currículum Vitae</title>
     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/13/13706.png">
 
@@ -12,7 +14,7 @@
     <meta property="og:title" content="Currículum Vitae" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content=" http://www.example.com" />
-    <meta property="og:image" content="programacion-2-e1551291144973.jpg" />
+    <meta property="og:image" content="img/mt-pic.jpg" />
     <meta property="og:description" content="Currículum Vitae - Proyecto Final" />
 
     <!-- Bootstrap (framework)-->
@@ -22,12 +24,89 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 
-        
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/af21fc14f3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+    <!-- Header -->
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="https://www.ejemplo.com/" target="_blank"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src="https://randomuser.me/api/portraits/men/61.jpg" alt="Es una imagen de Diego Herrera"
+                    id="avatar"><span>
+                    <h1>Diego Herrera</h1>
+                </span>
+            </a>
+
+            <ul class="nav nav-pills align-items-center">
+                <li class="nav-item"><a href="#" class="nav-link active text-bg-dark" aria-current="page">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Datos Personales</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Estudios</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Experiencia</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Skills</a></li>
+            </ul>
+        </header>
+    </div>
+
+
+    <!-- Main -->
+    <main class="row">
+        <div class="col-6">
+            <section>
+
+            </section>
+
+            <article>
+
+            </article>
+        </div>
+
+        <div class="col-6">
+
+            <aside>
+
+            </aside>
+
+
+        </div>
+
+
+    </main>
+
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="https://github.com/martinbernardez" target="_blank"
+                    class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img src="img/logotipo.png" alt="Logotipo del desarrollador" class="bi">
+                    <use xlink:href="https://github.com/martinbernardez" />
+                </a><span class="mb-3 mb-md-0 text-muted">&copy; 2023 - Martín Bernardez</span>
+            </div>
+
+            <ul id="socialFooter" class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="https://github.com/martinbernardez"><i
+                            class="fa-brands fa-github"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://twitter.com/home"><i
+                            class="fa-brands fa-twitter"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/feed/"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </footer>
+    </div>
 
 </body>
 
