@@ -13,10 +13,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-header {
-    background-color: #80CBF3;
-}
-
 #avatar {
     width: 100;
     height: auto;
@@ -29,20 +25,44 @@ h1 {
     margin-bottom: 0px;
 }
 
+#actividad {
+    margin-bottom: 0px;
+    margin-left: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .mail {
     text-decoration: none;
 }
 
-ul {
+.datosPers {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-  }
-
-
-footer {
-    background-color: #80CBF3;
+    padding: 12;
 }
+
+.myParr {
+    margin-bottom: 0;
+}
+
+.ulOk {
+    padding-left: 32px;
+}
+
+.blog-pagination {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
 
 #socialFooter {
     margin-right: 20px;
