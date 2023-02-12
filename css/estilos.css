@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-    margin-bottom: 0px;
+    margin-bottom: 3px;
 }
 
 #actividad {
@@ -38,8 +38,7 @@ a {
     text-decoration: none;
 }
 
-.datosPers {
-    list-style-type: none;
+.datosPers {    
     margin: 0;
     padding: 12;
 }
@@ -57,15 +56,16 @@ a {
     justify-content: flex-end;
 }
 
-
-
-
-
-
-
+#ulHab {
+    padding-left: 1rem;
+}
 
 #socialFooter {
     margin-right: 20px;
+}
+
+#perfilProf {
+    top: 2rem;
 }
 
 #socialFooter.fa-brands.bi {
