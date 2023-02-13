@@ -1,4 +1,4 @@
-/* Función: Compartir */
+/* Compartir */
 
 document.getElementById('share').onclick = function nativeShare() {
     if (navigator.share) {
@@ -6,3 +6,14 @@ document.getElementById('share').onclick = function nativeShare() {
     }
     return false;
 }
+
+
+
+/* Dark Mode */
+
+const btnSwitch = document.querySelector('#switch');
+
+btnSwitch.addEventListener('click', function DarkMode() {
+    document.body.classList.toggle('dark');
+    btnSwitch.classList.toggle('active');
+})

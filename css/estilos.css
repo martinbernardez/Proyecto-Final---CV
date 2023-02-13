@@ -1,3 +1,5 @@
+/* HTML */
+
 * {
     box-sizing: border-box;
 }
@@ -5,17 +7,33 @@
 body {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
+    transition: .3s ease all;
+}
+
+body.dark {
+    background: #181818;
+    color: #FFF;
+    transition: .3s ease all;
+}
+
+body.dark #perfil {
+    color: #000;
+    transition: .3s ease all;
+
 }
 
 @media only screen and (max-width: 600px) {
     body {
-        background-color: #e3e2e2;      
+        background-color: #e3e2e2;
         font-size: large;
     }
 }
 
 
+
+
 /* Header */
+
 #avatar {
     width: 100;
     height: auto;
@@ -37,17 +55,26 @@ a {
     text-decoration: none;
 }
 
+/* ---------------- */
+
 
 /* Main */
+
+/* Datos Personales */
 
 .mail {
     text-decoration: none;
 }
 
-.datosPers {    
+.datosPers {
     margin: 0;
     padding: 12;
 }
+
+/* ---------------- */
+
+
+/* Experiencia Laboral */
 
 .myParr {
     margin-bottom: 0;
@@ -57,14 +84,84 @@ a {
     padding-left: 32px;
 }
 
+/* ---------------- */
+
+
+/* Botones */
+
 .blog-pagination {
     display: flex;
     justify-content: flex-end;
 }
 
+/* Botón Dark Mode */
+
+.switch {
+    background: #343d5b;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}
+
+.switch::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #f1f1f1;
+    top: 1px;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2)
+}
+
+.switch.active {
+    background: orange;
+    color: #000;
+}
+
+.switch.active::after {
+    right: 0;
+    left: unset;
+}
+
+.iconDark {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #FFF;
+}
+
+
+/* ---------------- */
+
+
+
+/* Columa Derecha */
+
+/* Perfil Profesional */
+
+#perfilProf {
+    top: 2rem;
+}
+
+
+/* Habilidades */
+
 #ulHab {
     padding-left: 1rem;
 }
+
+/* ---------------- */
+
 
 /* Footer */
 
@@ -72,9 +169,7 @@ a {
     margin-right: 20px;
 }
 
-#perfilProf {
-    top: 2rem;
-}
+
 
 #socialFooter.fa-brands.bi {
     font-size: x-large;
@@ -87,4 +182,3 @@ a {
     height: 34px;
     margin-left: 20px;
 }
-
