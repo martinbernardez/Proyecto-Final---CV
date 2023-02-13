@@ -26,7 +26,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/estilos.css" />
-
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,7 +64,6 @@
             </ul>
         </header>
     </div>
-
 
     <!-- Main -->
     <main class="container">
@@ -131,8 +130,6 @@
                         <li>Sed nibh est, tristique in volutpat et, pellentesque a massa.</li>
                         <li>Suspendisse potenti. Aliquam nunc mauris, placerat sed ante in, congue feugiat metus.</li>
                     </ul>
-
-
                 </article>
 
                 <hr>
@@ -157,19 +154,16 @@
                 </article>
                 <hr>
 
-
                 <!-- Botones -->
 
-                <div class="blog-pagination" aria-label="Pagination">
-                    <a id="printBtn" class="btn btn-outline-dark" onclick="window.print()">Imprimir</a>
-                    <a id="compartir" class="btn btn-outline-dark ms-2">Compartir</a>
-                    <a class="btn btn-outline-dark ms-2" href="#inicio">Ir Arriba</a>
+                <div id="botones" class="blog-pagination" aria-label="Pagination">                    
+                    <a id="printBtn" class="btn btn-outline-primary ms-2" onclick="window.print()">Imprimir</a>
+                    <a id="share" class="btn btn-outline-primary ms-2">Compartir</a>
+                    <a class="btn btn-outline-primary ms-2" href="#inicio">Ir Arriba</a>
                 </div>
-                <script src="js/function.js"></script>
+                
 
             </div>
-
-
 
             <!-- Columna Derecha -->
 
@@ -177,14 +171,14 @@
 
             <div class="col-md-4">
                 <div id="perfilProf" class="position-sticky">
-                    <div class="p-4 mb-3 bg-light rounded">
+                    <div id="perfil" class="p-4 mb-3 bg-light rounded">
                         <h4 class="fst-italic">Perfil Profesional</h4>
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod
+                        <p " class=" mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Pellentesque euismod
                             fringilla nunc, at accumsan turpis ullamcorper aliquam. Nunc et sodales quam. Nunc in congue
                             justo, sit amet tempus mi. Donec bibendum porttitor condimentum. Fusce ullamcorper convallis
                             lacus ut tempor. Pellentesque quis ultrices velit, ac euismod turpis.</p>
                     </div>
-
 
                     <!-- Habilidades -->
 
@@ -209,7 +203,6 @@
                         </ul>
                     </div>
 
-
                     <!-- Redes Sociales -->
 
                     <div class="p-4">
@@ -232,13 +225,7 @@
             </div>
         </div>
 
-
-
-        
-
-
     </main>
-
 
     <!-- Footer -->
 
@@ -267,6 +254,8 @@
         </footer>
     </div>
 
+    <script type="text/javascript" src="js/main.js"></script>
+    
 </body>
 
 </html>
